@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>service-worker-cache</title>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./cache.js');
+        }
+    </script>
+</head>
+
+<body>
+    <img src="https://cnews.com.tw/wp-content/uploads/0214a05.jpg">
+    <img src="https://cnews.com.tw/wp-content/uploads/0214a05013.jpg">
+</body>
+
+</html>
